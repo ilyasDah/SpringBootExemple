@@ -10,7 +10,7 @@ pipeline {
 		stage('Checkout from git') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/ilyasDah/maven.git'
+                git 'https://github.com/ilyasDah/SpringBootExemple.git'
             }
 
         }
