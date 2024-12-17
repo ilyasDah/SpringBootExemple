@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="personne-ms" target="16" />
+      <module name="tp-ms" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="personne-ms" options="-parameters" />
+      <module name="spring-boot-tp" options="" />
+      <module name="tp-ms" options="-parameters" />
+    </option>
+  </component>
+</project>
