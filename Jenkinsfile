@@ -37,7 +37,7 @@ pipeline {
 		
 		stage ('Démarrer projet'){
 			steps {
-				bat 'mvn spring-boot:run -Dspring-boot.run.arguments="--server.port=8081"'
+				bat 'java -jar target/your-application-name.jar --server.port=8081'
 			}
 		}
     }
